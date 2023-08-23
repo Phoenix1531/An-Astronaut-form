@@ -39,3 +39,46 @@ body{
         transform: translateY(30px);
     }
 }
+
+form{
+    position: absolute;
+    top: 15%;
+    left: 56%;
+    width: 450px;
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.block-display{
+    display:block;
+}
+
+label{
+  font-size: 16px;
+  margin: 20px 0 4px 0;
+}
+
+h1{
+    font-size: 26px;
+    width: 280px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+input[type="text"], input[type="email"],select{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0 5px;
+}
+
+input[type="submit"]{
+    background-color: #E37737;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    margin: 40px auto;
+    border-radius: 20px;
+    
+}
